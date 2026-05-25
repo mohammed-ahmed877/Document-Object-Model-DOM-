@@ -1,4 +1,29 @@
-console.log("🧠 JavaScript DOM Manipulation Assignment")
+// console.log("🧠 JavaScript DOM Manipulation Assignment")
+
+// console.log("we use the code in dom like this and they are they code ");
+// console.log(`// Select by ID
+// let heading = document.getElementById("myId");
+
+// // Select by Class
+// let boxes = document.getElementsByClassName("myClass");
+
+// // Select first <p>
+// let firstParagraph = document.querySelector("p");
+
+// // Select first <h1>
+// let firstHeading = document.querySelector("h1");
+// and if you need to do a short cut and the good practice for thsi is and we use it more
+//  let allParagraphs = document.querySelectorAll("in this place i can add the class buy use of dot ,and the id is use by# and othe are like this ");`);
+
+
+
+
+
+
+
+
+
+
 
 // 📘 Instructions:
 // ● Use document.querySelector() to select elements from the HTML.
@@ -7,10 +32,23 @@ console.log("🧠 JavaScript DOM Manipulation Assignment")
 
 // 🧩 Questions:
 // 1. Select a paragraph with id "message" and change its text to "Welcome!".
-// 2. Get the value from an input with id "nameInput" and display it inside a div with id
-// "result".
+// Select the paragraph with id "message"
+// document.querySelector("#message").innerHTML = "Welcome!";
+
+// 2. Get the value from an input with id "nameInput" and display it inside a div with id "result".
+// Get the input value
+// function showName() {
+//     let num = document.querySelector("#nameInput").value;
+// let nam = document.querySelector("#result") .innerHTML=num;   
+// }
+
 // 3. When a button is clicked, change the background color of a section with id
 // "container" to light blue.
+
+
+
+
+
 // 4. Select a heading (h1) with id "mainTitle" and change its color to red.
 // 5. Get the number from an input with id "num1" and show it inside a paragraph with id
 // "output".
