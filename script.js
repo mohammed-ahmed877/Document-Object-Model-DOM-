@@ -53,14 +53,29 @@
 // document.querySelector("#first") .style.color="red";
 
 // 5. Get the number from an input with id "num1" and show it inside a paragraph with id "output".
+// function btn() {
+//     let num1 = document.querySelector("#num1").value;
+//   document.querySelector("#output").innerHTML = num;
 
-
-
-
+    
+// }
 
 // 6. Select a button with class "submit-btn" and log "Button Clicked" to the console when it's clicked.
-// 7. Get values from two inputs with ids "first" and "second", add them (as numbers),
-// and show the result in a span with id "sum".
+// function btn() {
+//   let num = document.querySelector(".class");
+//   console.log("Button Clicked");
+  
+// }
+ 
+// 7. Get values from two inputs with ids "first" and "second", add them (as numbers), and show the result in a span with id "sum".
+function btn1() {
+  let num = Number (document.querySelector("#first").value);
+  let num1 = Number (document.querySelector("#second").value);
+  document.querySelector("#sum").innerHTML= num + num1 ;
+}
+
+
+
 // 8. Change the text of a paragraph with class "description" to "Updated
 // successfully".
 
@@ -94,19 +109,3 @@
 
 
 
-
-
-// function combine(val1 , val2){
-//     console.log(typeof(val1) , typeof(val2));
-//     if(typeof(val1) === "number" && typeof(val2) === "number"){
-//         console.log("Sum of numbers " , val1 + val2);
-
-//     }else {
-//         console.log("string concatination " , val1 + val2);
-
-//     }
-
-// }
-
-combine(10  , 20 )
-// combine('ahmed'  , ' ali')
